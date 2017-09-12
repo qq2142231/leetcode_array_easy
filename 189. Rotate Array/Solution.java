@@ -1,13 +1,8 @@
-package com.cn.mensheng;
-
-
-
-/**
- * Created by l on 2017/9/2.
- */
+﻿
 class Solution {
 
     public void rotate(int[] nums, int k) {
+
         int length = nums.length ;
 
         if( length < 2 )
@@ -20,7 +15,7 @@ class Solution {
 
 
 
-       int end =  maxCommonDivisor(length,k);
+       int end =  maxCommonDivisor(length,k); 
 
             for(int j = 0 ; j < end ;j++ ) {
 
@@ -53,16 +48,6 @@ class Solution {
     }
 
 
-    public static void  main(String[] args)
-    {
-        Solution test = new Solution();
-
-
-        int[] nums = new int[]{1,2,3,4,5,6};
-
-
-     test.rotate(nums,4);
-
-    }
+  
 }
 
